@@ -1,0 +1,32 @@
+{
+  "name": "grunt-global-config",
+  "description": "Create a global config object from json config",
+  "version": "0.0.1",
+  "author": "vanetix <matmcfarland@gmail.com>",
+  "main": "Gruntfile.js",
+  "bin": "bin/grunt-global-config",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/vanetix/grunt-global-config.git"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.0",
+    "grunt-contrib-jshint": "~0.3.0",
+    "grunt-contrib-nodeunit": "~0.1.2",
+    "grunt-contrib-clean": "~0.3.2"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.1",
+  },
+  "keywords": [
+    "config",
+    "global-config",
+    "gruntplugin"
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  }
+}
