@@ -34,6 +34,7 @@ config: {
   }
 }
 ```
+Note: You can also use templates in your config.json, i.e. `"version": "<%= pkg.version %>`.
 
 ## Release History
 - 0.0.1 - Initial release
