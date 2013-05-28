@@ -4,5 +4,6 @@
   "object": {
     "key": "value",
     "another": "value"
-  }
+  },
+  "name": "<%= pkg.name %>"
 }
