@@ -35,7 +35,8 @@ module.exports = function(grunt) {
           }
         })
         .forEach(function(p) {
-          var j = grunt.file.readJSON(p);
+          var f = grunt.file.read(p);
+          var j = JSON.parse(grunt.config.process(f));
 
           c += opts.namespace + ' = ' + JSON.stringify(j) + ';' + grunt.util.linefeed;
         });
