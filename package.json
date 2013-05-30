@@ -1,7 +1,7 @@
 {
   "name": "grunt-global-config",
   "description": "Create a global config object from json config",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "author": "vanetix <matmcfarland@gmail.com>",
   "main": "Gruntfile.js",
   "bin": "bin/grunt-global-config",

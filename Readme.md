@@ -37,6 +37,7 @@ config: {
 Note: You can also use templates in your config.json, i.e. `"version": "<%= pkg.version %>`.
 
 ## Release History
+- 0.1.0 - Ability to use grunt templates. Thanks [ataube](http://www.github.com/ataube)!
 - 0.0.1 - Initial release
 
 ## License (MIT)
